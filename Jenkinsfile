@@ -16,5 +16,10 @@ pipeline {
                 echo "Hello World at the top!"
             }
         }
+        stage('Enabled Polling') { 
+            steps {
+                echo "After enabling the polling we need to run the pipeline manually one time."
+            }
+        }
     }
 }
