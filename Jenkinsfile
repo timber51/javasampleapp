@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                echo "This branch is for peer review and dev env only."
             }
         }
     }
