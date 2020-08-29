@@ -11,5 +11,10 @@ pipeline {
                 echo "Hello World at the top!"
             }
         }
+        stage('Disabled Polling') { 
+            steps {
+                echo "Hello World at the top!"
+            }
+        }
     }
 }
