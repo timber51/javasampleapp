@@ -1,9 +1,13 @@
 pipeline {
     agent {node 'master'}
     stages {
-        stage('Build') { 
+        stage('Test') { 
             steps {
-                echo "Hello World!!"
+                echo "Peer review done!"
+            }
+        stage('Deploy') { 
+            steps {
+                echo "Developer's branch merge kicked this off."
             }
         }
     }
