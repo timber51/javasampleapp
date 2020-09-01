@@ -1,7 +1,7 @@
 pipeline {
     agent {node 'master'}
     stages {
-        stage('dev') { 
+        stage('DEV') { 
             steps {
                 echo "Hello World at the top!"
             }
