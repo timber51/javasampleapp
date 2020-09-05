@@ -1,5 +1,5 @@
 example.java.helloworld
-Test
+Test12
 =======================
 
 This is "Hello World" Example for Java.
